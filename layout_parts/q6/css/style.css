@@ -25,12 +25,6 @@
   text-align: center;
 }
 
-.q6--horizontal .q6_box_text  {
-  width: 90px;
-  padding: 10px 0;
-  background-color: #e6f2ff;
-}
-
 .q6--around.is-table{
   display:  table; 
 }

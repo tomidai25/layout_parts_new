@@ -8,27 +8,27 @@
   margin: 0 auto;
   cursor: pointer;
 }
-.q9_trans_thumb {
+.q9_trans_tumb {
   transition: all 0.5s;
 }
 .q9_trans_desc {
   position: absolute;
-  bottom: -100%;
+  top: -100%;
   left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
   transition: all 0.5s;
 }
-.q9_trans:hover .q9_trans_thumb {
+.q9_trans:hover .q9_trans_tumb {
   transform: scale(1.5);
 }
 .q9_trans:hover .q9_trans_desc {
-  bottom: 0;
+  top: 0;
 }
 .q9_trans_desc_text {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   padding: 20px;

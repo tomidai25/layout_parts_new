@@ -33,21 +33,17 @@
         <!-- 回答はクラスq4の要素の中に書いてね -->
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <!-- 新たにタグは追加しなくてもできます。 -->
-        <div class="q4">
-          <div class="q4_contents">
-            <div class="q4_contents_cell">
-              <div class="q4_contents_orange_cell">固定</div>
-              <div class="q4_contents_pink_cell">可変</div>
-              <div class="q4_contents_blue_cell">固定</div>
-            </div>
+        <div class="q4_box">
+          <div class="q4_contents_cell">  <!--cssのbackground-colorの指定を無しで棒同士の間隔が見本と同じになった。-->
+            <div class="q4_contents_orange_cell q4_cell">固定</div>
+            <div class="q4_contents_pink_cell q4_cell">可変</div>
+            <div class="q4_contents_blue_cell q4_cell">固定</div>
+          </div>  <!--q4_cellを共通のスタイルにしてcssでdisplay,paddingを指定して階層を減らした。-->
+          <div class="q4_contents_cell">
+            <div class="q4_contents_yellow_cell q4_cell">可変</div>
+            <div class="q4_contents_red_cell q4_cell">可変</div>
+            <div class="q4_contents_green_cell q4_cell">固定</div>
           </div>
-          <div class="contents">
-            <div class="q4_contents_cell">
-              <div class="q4_contents_yellow_cell">可変</div>
-              <div class="q4_contents_red_cell">可変</div>
-              <div class="q4_contents_green_cell">固定</div>
-            </div>
-          </div>  
         </div>
         <!-- 回答はクラスq4の要素の中に書いてね -->
       </div>

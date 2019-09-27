@@ -6,7 +6,7 @@
   clear: both;
 }
 
-.q2 {
+.q2_area {
   width: 900px; 
   margin: 0%  auto;
   padding: 20px;
@@ -29,15 +29,11 @@
 
 .q2_tumb.is-left  {
   float: left;
-  width: 200px;
-  height: 133px;
   margin-right: 20px;
 }
 
 .q2_tumb.is-right {
   float: right;
-  width: 200px; 
-  height: 133px;
   margin-left: 20px;
 }
 

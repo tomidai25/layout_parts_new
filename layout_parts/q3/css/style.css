@@ -12,17 +12,14 @@
   table-layout: fixed;
 }
 
-table{
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 .q3_contents  th{
     background-color: #2244aa;
     color: #ffffff;
     padding: 10px;
     border: 1px solid #dedede;
     vertical-align: middle;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .q3_contents  td{
